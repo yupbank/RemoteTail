@@ -7,7 +7,7 @@ remote tail log utils
 example usage are in the example.py
 
 ```
-from RemoteTail import RemoteTailer, signal_handler
+from RemoteTail import RemoteTailer
     
 def singal_machine():
     remote_tailer = RemoteTailer(host='localhost', username='pengyu', file_name='/Users/pengyu/projects/RemoteTail/README.md')
